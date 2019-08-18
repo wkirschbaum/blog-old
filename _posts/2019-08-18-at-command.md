@@ -16,15 +16,23 @@ at> echo "Make sure to get good coffee"
 at><CTRL-D>
 ```
 
-Which will send an email to your user at 8am tomorrow morning.
+Which will send an email to your user at 8am tomorrow morning. at Will automatically email you if there is some output.
+
+If you want to be more specific:
+
+```bash
+at 8am tomorrow
+at> echo "Make sure to get good coffee" | mail -s Coffee wilhelm
+at><CTRL-D>
+```
+
+If you don't have local mail set up.
 
 ```bash
 at 8am tomorrow
 at> notify-send "Make sure to get good coffee"
 at><CTRL-D>
 ```
-
-if you don't have local mail set up.
 
 It is pretty good with understanding complex times
 
