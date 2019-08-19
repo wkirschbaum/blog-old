@@ -5,7 +5,7 @@ date:   2019-08-19 08:51:20 +0200
 categories: ruby programming
 ---
 
-If you have some code to abstract in an application, you don't have to do a big bang change to rewrite the code. Do the following steps as a guideline.
+If you have some code to abstract in an application, you don't have to do a big bang change to rewrite the code. Use the following steps as a guideline.
 
 1. Identify what you want to abstract
 2. Roughly move the code you want to abstract into a separate file or folder.
